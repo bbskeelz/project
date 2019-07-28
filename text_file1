@@ -1,25 +1,20 @@
-Seans-MacBook-Pro-2:project sean$ git status
-On branch master
---------------------------------------------------------------------------
-|   Stash   |    Local    |    Index    |   Repository  |     Remote     |
---------------------------------------------------------------------------
-| *empty*   | *clean*     | text_file1  | *clean*       | text_file3     |
-|           |             | *text_file5 | *clean*       |                |
---------------------------------------------------------------------------
-
-Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
-  (use "git pull" to update your local branch)
-
-  remote:     text_file3
-  
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	modified:   text_file1
-	new file:   text_file5
-
 Seans-MacBook-Pro-2:project sean$ git pull
-Updating 2b098a3..f5c2d7e
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/bbskeelz/project
+   31ca677..a1f42fe  master     -> origin/master
+Updating 31ca677..a1f42fe
 Fast-forward
- text_file3 | 2 +-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+
+---------------------------------
+|   Repository  |     Remote    |
+---------------------------------
+| *new&        <-- text_file6   |
+---------------------------------
+
+ text_file6 | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text_file6
